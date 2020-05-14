@@ -1,8 +1,11 @@
-footer: [Projet Consultant réseau](https://github.com/reseau-2020), © F.-E. Goffinet, 2020
-slidenumbers: true
-autoscale: true
-theme: Plain Jane, 1
-slide-dividers: #
+---
+marp: true
+title: Projet X
+description: Projet Consultant Réseau
+theme: default
+paginate: true		
+_paginate: false		
+---
 
 # Projet Consultant réseau
 
