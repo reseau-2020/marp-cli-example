@@ -144,19 +144,17 @@ Il est recommandé d'utiliser les réunion privées dédiée https://ensemble-bb
 
 ## 4. Objectifs à valider
 
-| Objectif |
-| -------- |
-| Rédiger et publier la documentation complète d'un projet informatique  |
-| Présenter efficacement un projet informatique devant un public  |
-| Renforcer la sécurité des périphériques du réseau  |
-| Mettre en oeuvre le filtrage L2/L3/L7 sur les routeurs commutateurs et autres périphériques de sécurité  |
-| Mettre en oeuvre l'authentification et le chiffrement à tous les niveaux d'une architecture  |
-| Mettre en oeuvre les protocoles de routage RIP EIGRP OSPF et BGP dans un inter-réseau  |
-| Mettre en oeuvre et sécuriser les protocoles L2/IEEE 802.1 dans le cadre d'architectures LAN hautement disponibles (HA)  |
-| Mettre en oeuvre les fonctionnalités de type pare-feu y compris un UTM  |
-| Mettre en place la surveillance et le reporting du réseau  |
-| Faire des choix de conception d'architecture réseau et les défendre  |
-| Appliquer les principes de l'automation des réseau infrastructure as code  |
+- Rédiger et publier la documentation complète d'un projet informatique
+- Présenter efficacement un projet informatique devant un public
+- Renforcer la sécurité des périphériques du réseau
+- Mettre en oeuvre le filtrage L2/L3/L7 sur les routeurs commutateurs et autres périphériques de sécurité
+- Mettre en oeuvre l'authentification et le chiffrement à tous les niveaux d'une architecture
+- Mettre en oeuvre les protocoles de routage RIP EIGRP OSPF et BGP dans un inter-réseau
+- Mettre en oeuvre et sécuriser les protocoles L2/IEEE 802.1 dans le cadre d'architectures LAN hautement disponibles (HA)
+- Mettre en oeuvre les fonctionnalités de type pare-feu y compris un UTM
+- Mettre en place la surveillance et le reporting du réseau
+- Faire des choix de conception d'architecture réseau et les défendre
+- Appliquer les principes de l'automation des réseau infrastructure as code
 
 
 ## 5. Discrétion / Droits
