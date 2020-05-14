@@ -1,21 +1,18 @@
----
-marp: true
-title: Projet
-description: Hosting Marp slide deck on the web
-theme: default
-paginate: true
-_paginate: false
----
+footer: [Projet Consultant réseau](https://github.com/reseau-2020), © F.-E. Goffinet, 2020
+slidenumbers: true
+autoscale: true
+theme: Plain Jane, 1
+slide-dividers: #
 
 # Projet Consultant réseau
 
 ---
 
-## 1. Présentation
+# 1. Présentation
 
 ---
 
-###  1.1. Scénario
+#  1.1. Scénario
 
 Le client est le formateur référent, il prend les services d'une équipe de consultants réseau pour le conseiller sur la conception, la configuration et la maintenance d'une infrastructure d'essai représentative pour ses déploiements réels.
 
@@ -25,11 +22,11 @@ Ce n'est pas dit comme tel mais il s'agit surtout pour lui d'évaluer les consul
 
 ---
 
-### 1.2. Modalités pratiques
+# 1.2. Modalités pratiques
 
 ---
 
-#### Github
+# Github
 
 Chaque équipe travaille par projet Github dans l'organisation "[https://github.com/reseau-2020](https://github.com/reseau-2020)" et non sur votre compte personnel.
 
@@ -39,13 +36,13 @@ La documentation devrait être écrite en Markdown. Les copies d'écran (images)
 
 ---
 
-#### Début et fin de journée / Journalier
+# Début et fin de journée / Journalier
 
 Les 30 premières minutes et les 30 dernières minutes de la journée sont communes et le reste du temps se déroule en équipe. Chaque équipe expose et évalue son plan de la journée à ces moments de départ et de fin. Le plan est horodaté et documenté.
 
 ---
 
-### 1.3. Planning
+# 1.3. Planning
 
 ![right fit](planning-projet.png)
 
@@ -53,7 +50,7 @@ Il s'agit de travailler à partir d'un seul repo commun qui est constitué de do
 
 ---
 
-### 1.4. Méthodologie
+# 1.4. Méthodologie
 
 - Lister les tâches
 - Les placer dans la colonne ToDo
@@ -62,7 +59,7 @@ Il s'agit de travailler à partir d'un seul repo commun qui est constitué de do
 
 ---
 
-#### 8 jours
+# 8 jours
 
 8 jours (3+5) qui doivent comprendre des étapes :
 
@@ -74,18 +71,18 @@ C'est beaucoup et peu à la fois.
 
 ---
 
-## 2. Livrables
+# 2. Livrables
 
 ---
 
-#### En continu et en final
+# En continu et en final
 
 - Une topologie et le "code" de l'infrastructure avec une description, ce que l'on appelle une "documentation".
 - Une présentation de votre projet de 10 à 15 minutes (10 à 15 diapos) dans laquelle chacun.e prend la parole.
 
 ---
 
-#### En continu quotidiennement
+# En continu quotidiennement
 
 Chaque équipe livre un article journalier (écrit de manière collaborative) :
 
@@ -95,7 +92,7 @@ Chaque équipe livre un article journalier (écrit de manière collaborative) :
 
 ---
 
-### 2.1. Topologie
+# 2.1. Topologie
 
 - Un adressage IPv4 et IPv6 spécifique (blocs d'adresses indédits[^1]) et le protocole de routage OSPF ou EIGRP
 - Deux switchblocks (4 vlans utiles) dans les couches Access et Distribution (assuré par RTSP, Etherchannel et HSRP)
@@ -111,7 +108,7 @@ Chaque équipe livre un article journalier (écrit de manière collaborative) :
 
 ---
 
-### 2.2. Code
+# 2.2. Code
 
 Le code de l'infrastructure doit reprendre au minimum :
 
@@ -124,7 +121,7 @@ Le code de l'infrastructure doit reprendre au minimum :
 
 ---
 
-### 2.3. Soutenance
+# 2.3. Soutenance
 
 - Chacun.e prend la parole
 - 10 à 15 minutes (sujets)
@@ -137,17 +134,17 @@ Le code de l'infrastructure doit reprendre au minimum :
 
 ---
 
-## 3. Outils
+# 3. Outils
 
 ---
 
-### 3.1. Réunion privée
+# 3.1. Réunion privée
 
 Il est recommandé d'utiliser les réunion privées dédiée https://ensemble-bbb.scaleway.com/, une par équipe, dont vous communiquez l'url au formateur via Slack.
 
 ---
 
-### 3.2. Documentation
+# 3.2. Documentation
 
 - Git : [https://rogerdudler.github.io/git-guide/index.fr.html](https://rogerdudler.github.io/git-guide/index.fr.html)
 - [https://desktop.github.com/](https://desktop.github.com/)
@@ -156,7 +153,7 @@ Il est recommandé d'utiliser les réunion privées dédiée https://ensemble-bb
 
 ---
 
-### 3.3. Diagrammes
+# 3.3. Diagrammes
 
 - GNS3
 - [https://www.lucidchart.com/](https://www.lucidchart.com/)
@@ -164,7 +161,7 @@ Il est recommandé d'utiliser les réunion privées dédiée https://ensemble-bb
 
 ---
 
-### 3.4. Collaboration
+# 3.4. Collaboration
 
 - Issue GitHub
 - [Kanban](https://help.github.com/en/github/managing-your-work-on-github/about-project-boards)
@@ -172,20 +169,20 @@ Il est recommandé d'utiliser les réunion privées dédiée https://ensemble-bb
 
 ---
 
-### 3.5. Gestion
+# 3.5. Gestion
 
 - [https://github.com/goffinet/ansible-cisco-ccna](https://github.com/goffinet/ansible-cisco-ccna)
 
 ---
 
-### 3.6. Présentation
+# 3.6. Présentation
 
 - [Marp CLI](https://github.com/marp-team/marp-cli) et [Marp CLI Example](https://github.com/yhatt/marp-cli-example)
 - [Markdown Slide Decks](https://gist.github.com/johnloy/27dd124ad40e210e91c70dd1c24ac8c8)
 
 ---
 
-## 4. Objectifs à valider
+# 4. Objectifs à valider
 
 | Objectif |
 | -------- |
@@ -204,7 +201,7 @@ Il est recommandé d'utiliser les réunion privées dédiée https://ensemble-bb
 
 ---
 
-## 5. Discrétion / Droits
+# 5. Discrétion / Droits
 
 La discrétion exige de ne citer aucun nom de famille ou d'entreprise ni aucun élément privé ou secret.
 
@@ -214,6 +211,6 @@ Le repo du site Web doit rester public.
 
 ---
 
-## 6. Faq
+# 6. Faq
 
 _Faq vide pour l'instant._
