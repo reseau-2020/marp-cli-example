@@ -47,7 +47,7 @@ Les 30 premières minutes et les 30 dernières minutes de la journée sont commu
 
 # 1.3. Planning
 
-![right fit](./assets/planning-projet.png)
+![bg](./assets/planning-projet.png)
 
 Il s'agit de travailler à partir d'un seul repo commun qui est constitué de dossiers et de fichiers (les plus bruts possibles - txt,png et non pdf,xls,doc,...) qui comprennent les configs et la documentation. Chaque jour, chaque étape plannifiée, devrait faire l'objet d'un post.
 
