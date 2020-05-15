@@ -4,7 +4,7 @@ title: Projet X
 description: Projet Consultant Réseau
 theme: default
 headingDivider: 4
-paginate: true		
+paginate: true
 _paginate: false
 ---
 
@@ -12,7 +12,7 @@ _paginate: false
 
 ## 1. Présentation
 
-###  1.1. Scénario
+### 1.1. Scénario
 
 Le client est le formateur référent, il prend les services d'une équipe de consultants réseau pour le conseiller sur la conception, la configuration et la maintenance d'une infrastructure d'essai représentative pour ses déploiements réels.
 
@@ -36,7 +36,7 @@ Les 30 premières minutes et les 30 dernières minutes de la journée sont commu
 
 ### 1.3. Planning
 
-![bg](./assets/planning-projet.png)
+![](planning-projet.png)
 
 Il s'agit de travailler à partir d'un seul repo commun qui est constitué de dossiers et de fichiers (les plus bruts possibles - txt,png et non pdf,xls,doc,...) qui comprennent les configs et la documentation. Chaque jour, chaque étape plannifiée, devrait faire l'objet d'un post.
 
@@ -82,7 +82,7 @@ Chaque équipe livre un article journalier (écrit de manière collaborative) :
 - Un site distant connecté en VPN IPSEC
 - Des services d'infrastuctures (NTP,DNS,DHCP,NTP/DHCPv6/DHCP Relay,RA, ...)
 - Des services de surveillance (SYSLOG, SNMP)
-- Le focus sécuriataire sur toutes les solutions déployés
+- Le focus sécuritaire sur toutes les solutions déployés
 
 [^1]: Bloc IPv6 HE Global Unicast fourni par le formateur.
 
@@ -112,7 +112,7 @@ Le code de l'infrastructure doit reprendre au minimum :
 
 ### 3.1. Réunion privée
 
-Il est recommandé d'utiliser les réunion privées dédiée https://ensemble-bbb.scaleway.com/, une par équipe, dont vous communiquez l'url au formateur via Slack.
+Il est recommandé d'utiliser les réunions privées dédiées https://ensemble-bbb.scaleway.com/, une par équipe, dont vous communiquez l'url au formateur via Slack.
 
 ### 3.2. Documentation
 
@@ -132,6 +132,7 @@ Il est recommandé d'utiliser les réunion privées dédiée https://ensemble-bb
 - Issue GitHub
 - [Kanban](https://help.github.com/en/github/managing-your-work-on-github/about-project-boards)
 - [Gant Mermaid](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ2FudHRcblx0dGl0bGUgQSBHYW50dCBEaWFncmFtXG5cdGRhdGVGb3JtYXQgIFlZWVktTU0tRERcblx0c2VjdGlvbiBTZWN0aW9uXG5cdEEgdGFzayAgICAgICAgICAgOmExLCAyMDE0LTAxLTAxLCAzMGRcblx0QW5vdGhlciB0YXNrICAgICA6YWZ0ZXIgYTEgICwgMjBkXG5cdHNlY3Rpb24gQW5vdGhlclxuXHRUYXNrIGluIHNlYyAgICAgIDoyMDE0LTAxLTEyICAsIDEyZFxuXHRhbm90aGVyIHRhc2sgICAgICA6IDI0ZFxuXHRcdFx0XHRcdCIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6dHJ1ZX0)
+- [Gantt Project](https://www.ganttproject.biz)
 
 ### 3.5. Gestion
 
@@ -155,7 +156,6 @@ Il est recommandé d'utiliser les réunion privées dédiée https://ensemble-bb
 - Mettre en place la surveillance et le reporting du réseau
 - Faire des choix de conception d'architecture réseau et les défendre
 - Appliquer les principes de l'automation des réseau infrastructure as code
-
 
 ## 5. Discrétion / Droits
 
